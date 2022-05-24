@@ -1,0 +1,86 @@
+body {
+  background-color: #eee; 
+}
+/*INGRESO CENTRADO*/
+.form-inline {
+  display: flex;
+  justify-content: center; 
+}
+/*FIN INGRESO CENTRADO*/
+/*RECUADRO*/
+.cont {
+  color: #7d8285;
+  background-color: #ffffff;
+  padding: 55px 74px;
+  margin-bottom: 50px; 
+}
+/*FIN RECUADRO*/
+/*CHECKS Y BOTON*/
+.aceptc {
+  margin-top: 1%;
+  margin-bottom: 0%; 
+}
+.env {
+  margin-top: 25px;
+  margin-bottom: 0px; 
+}
+.cont div .btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1; 
+}
+  .cont div .btn:hover {
+    opacity: 1; 
+  }
+  .cont div .btn:active {
+    transform: translateY(1px); 
+  }
+  .cont div .btn-primary {
+  background-color: black;
+  color: #ffffff;
+  outline: none !important; 
+  }
+/*FIN CHECKS Y BOTON*/
+/*INICIO*/
+.log1 {
+  background-color: white;
+  background-size: cover;
+  color: #eff1f4;
+  font-variant: small-caps; 
+}
+.log2 {
+  background-color: #7d8285;
+  background-size: cover;
+  background-position: 10%;
+  height: 200px; 
+}
+.lo1 {
+  opacity: 100%;
+  height: 100px;
+  display: block;
+  margin: -20px auto;
+}
+.txta {
+  font-size: 11px;
+  text-align: center;
+  justify-content: center; 
+}
+/*FIN INICIO*/
+
+/*INICIO RESPONSIVE*/
+@media only screen and (max-device-width: 320px) {
+  .lo1 {
+    opacity: 100%;
+    height: 50px;
+    display: block;
+    margin: -20px auto; }
+  }
+/*FIN RESPONSIVE*/
